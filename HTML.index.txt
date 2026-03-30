@@ -1,0 +1,66 @@
+HTML
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soukouna Mohamed | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Soukouna Mohamed</h1>
+        <p>Bienvenue sur mon portfolio hébergé via GitHub</p>
+    </header>
+
+    <section id="about">
+        <h2>À propos</h2>
+        <p>Passionné par [Ton Domaine], je crée des solutions innovantes...</p>
+    </section>
+
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="project-card">
+            <h3>Projet 1</h3>
+            <p>Description de ton projet réalisé sur Wix ou ailleurs.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact : mohamedsoukouna188@example.com</p>
+    </footer>
+</body>
+</html>
+2. Crée un fichier nommé style.css
+Ce fichier rendra ton site élégant.
+
+CSS
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 2rem 0;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.project-card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
