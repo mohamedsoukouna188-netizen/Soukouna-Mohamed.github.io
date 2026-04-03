@@ -1,80 +1,56 @@
-HTML
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soukouna Mohamed | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mon Portfolio</title>
+    <style>
+        /* Ce code rend la page plus jolie */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 { color: #1a1a1a; }
+        p { color: #666; margin-bottom: 25px; }
+
+        /* Le style du bouton cliquable */
+        .wix-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .wix-button:hover {
+            background-color: #2563eb;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>https://mohamedsoukouna188.wixsite.com/soukouna-mohamed</p>
-            
-    </header>
 
-    <section id="about">
-        <h2>À propos</h2>
-        <p>Passionné par [Ton Domaine], je crée des solutions innovantes...</p>
-    </section>
+    <div class="container">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Retrouvez l'ensemble de mes projets sur mon site officiel.</p>
+        
+        <a href="https://mohamedsoukouna188.wixsite.com/soukouna-mohamed" target="_blank" class="wix-button">
+            Consulter mon site Wix
+        </a>
+    </div>
 
-    <section id="projects">
-        <h2>Mes Projets</h2>
-        <div class="project-card">
-            <h3>Projet 1</h3>
-            <p>Description de ton projet réalisé sur Wix ou ailleurs.</p>
-        </div>
-    </section>
-
-    <footer>
-        <p>Contact : mohamedsoukouna188@example.com</p>
-    </footer>
 </body>
 </html>
-2. Crée un fichier nommé style.css
-Ce fichier rendra ton site élégant.
-
-CSS
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
-}
-
-header {
-    background: #2c3e50;
-    color: white;
-    padding: 2rem 0;
-}
-
-section {
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-}
-
-.project-card {
-    background: white;
-.wix-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3b82f6; /* Un joli bleu */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 15px;
-    font-weight: bold;
-}
-
-.wix-button:hover {
-    background-color: #2563eb; /* Bleu plus foncé au survol */
-}
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
